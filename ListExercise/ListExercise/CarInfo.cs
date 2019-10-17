@@ -14,7 +14,6 @@ namespace ListExercise
 {
     public class CarInfo
     {
-        public string Car { get; set; }
         public string Manufacturer { get; set; }
         public string Model { get; set; }
         public string Year { get; set; }

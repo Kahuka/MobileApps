@@ -45,7 +45,6 @@ namespace ListExercise
             View view = convertView;
             if (view == null)
                 view = _context.LayoutInflater.Inflate(Resource.Layout.Car_Row, null);
-            view.FindViewById<TextView>(Resource.Id.textView1).Text = item.Car;
             view.FindViewById<TextView>(Resource.Id.textView2).Text = item.Manufacturer;
             view.FindViewById<TextView>(Resource.Id.textView3).Text = item.Model;
             view.FindViewById<TextView>(Resource.Id.textView4).Text = item.Year;
