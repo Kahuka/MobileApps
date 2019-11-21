@@ -5,21 +5,26 @@
 	android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-	android:background="@color/LightestOfAllBlue">
+	android:background="@color/LightGreen">
 	<Button
 		android:text="People"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:id="@+id/toPeopleButton" />
+		android:id="@+id/PeopleButton" />
 	<Button
 		android:text="Planets"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:id="@+id/toPlanetsButton" />
+		android:id="@+id/PlanetsButton" />
 	<Button
 		android:text="Starships"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:id="@+id/toStarshipsButton" />
+		android:id="@+id/StarshipsButton" />
+    <Button
+		android:text="Films"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/FilmsButton" />
 
 </LinearLayout>

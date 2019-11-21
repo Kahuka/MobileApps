@@ -16,10 +16,13 @@ namespace StarWarsApp
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.People_Layout);
 
+
+
             var searchBar = FindViewById<EditText>(Resource.Id.searchEditText);
             var searchButton = FindViewById<Button>(Resource.Id.searchButton);
             var peopleListView = FindViewById<ListView>(Resource.Id.peopleListView);
-            //var drawable = (int)typeof(Resource.Drawable).GetField("Luke_skywalker.jpg").GetValue(null);
+
+
 
             searchButton.Click += async delegate
             {

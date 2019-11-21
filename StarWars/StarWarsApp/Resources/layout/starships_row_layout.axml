@@ -10,7 +10,7 @@
 		android:minWidth="25px"
 		android:minHeight="25px"
 		android:id="@+id/textViewStarships1"
-		android:background="@color/NiceLightBlue"
+		android:background="#f4818f"
 		android:textStyle="bold"
 		android:textSize="38px" />
 	<TextView
@@ -20,7 +20,7 @@
 		android:minWidth="25px"
 		android:minHeight="25px"
 		android:id="@+id/textViewStarships2"
-		android:background="@color/NiceLightBlue"
+		android:background="#f4818f"
 	    android:textStyle="bold"/>
 	<TextView
 		android:text="Text"
@@ -29,7 +29,7 @@
 		android:minWidth="25px"
 		android:minHeight="25px"
 		android:id="@+id/textViewStarships3"
-		android:background="@color/NiceLightBlue"
+		android:background="#f4818f"
 	    android:textStyle="bold"/>
 	<TextView
 		android:text="Text"
@@ -38,7 +38,7 @@
 		android:minWidth="25px"
 		android:minHeight="25px"
 		android:id="@+id/textViewStarships4"
-		android:background="@color/NiceLightBlue"
+		android:background="#f4818f"
 		android:textStyle="bold"/>
 	<TextView
 		android:text="Text"
@@ -47,7 +47,7 @@
 		android:minWidth="25px"
 		android:minHeight="25px"
 		android:id="@+id/textViewStarships5"
-		android:background="@color/NiceLightBlue"
+		android:background="#f4818f"
 	    android:textStyle="bold"/>
 	<TextView
 		android:text="Text"
@@ -56,7 +56,7 @@
 		android:minWidth="25px"
 		android:minHeight="25px"
 		android:id="@+id/textViewStarships6"
-		android:background="@color/NiceLightBlue"
+		android:background="#f4818f"
 	    android:textStyle="bold"/>
 	<TextView
 		android:text="Text"
@@ -65,7 +65,7 @@
 		android:minWidth="25px"
 		android:minHeight="25px"
 		android:id="@+id/textViewStarships7"
-		android:background="@color/NiceLightBlue"
+		android:background="#f4818f"
 		android:textStyle="bold"/>
 	<TextView
 		android:text="Text"
@@ -74,7 +74,7 @@
 		android:minWidth="25px"
 		android:minHeight="25px"
 		android:id="@+id/textViewStarships8"
-		android:background="@color/NiceLightBlue"
+		android:background="#f4818f"
 	    android:textStyle="bold"/>
 	<TextView
 		android:text="Text"
@@ -83,7 +83,7 @@
 		android:minWidth="25px"
 		android:minHeight="25px"
 		android:id="@+id/textViewStarships9"
-		android:background="@color/NiceLightBlue"
+		android:background="#f4818f"
 	    android:textStyle="bold"/>
 		<TextView
 		android:text="Text"
@@ -92,7 +92,7 @@
 		android:minWidth="25px"
 		android:minHeight="25px"
 		android:id="@+id/textViewStarships10"
-		android:background="@color/NiceLightBlue"
+		android:background="#f4818f"
 	    android:textStyle="bold"/>
 	<TextView
 		android:text="Text"
@@ -101,7 +101,7 @@
 		android:minWidth="25px"
 		android:minHeight="25px"
 		android:id="@+id/textViewStarships11"
-		android:background="@color/NiceLightBlue"
+		android:background="#f4818f"
 		android:textStyle="bold"/>
 	<TextView
 		android:text="Text"
@@ -110,7 +110,7 @@
 		android:minWidth="25px"
 		android:minHeight="25px"
 		android:id="@+id/textViewStarships12"
-		android:background="@color/NiceLightBlue"
+		android:background="#f4818f"
 	    android:textStyle="bold"/>
 	<TextView
 		android:text="Text"
@@ -119,7 +119,7 @@
 		android:minWidth="25px"
 		android:minHeight="25px"
 		android:id="@+id/textViewStarships13"
-		android:background="@color/NiceLightBlue"
+		android:background="#f4818f"
 	    android:textStyle="bold"/>
 
 </LinearLayout>
