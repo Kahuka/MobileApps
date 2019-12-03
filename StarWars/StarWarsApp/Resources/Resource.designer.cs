@@ -2306,10 +2306,31 @@ namespace StarWarsApp
 			public const int notify_panel_notification_icon_bg = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int tooltip_frame_dark = 2131165294;
+			public const int StarWars1 = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int tooltip_frame_light = 2131165295;
+			public const int StarWars2 = 2131165295;
+			
+			// aapt resource value: 0x7F070070
+			public const int StarWars3 = 2131165296;
+			
+			// aapt resource value: 0x7F070071
+			public const int StarWars4 = 2131165297;
+			
+			// aapt resource value: 0x7F070072
+			public const int StarWars5 = 2131165298;
+			
+			// aapt resource value: 0x7F070073
+			public const int StarWars6 = 2131165299;
+			
+			// aapt resource value: 0x7F070074
+			public const int StarWars7 = 2131165300;
+			
+			// aapt resource value: 0x7F070075
+			public const int tooltip_frame_dark = 2131165301;
+			
+			// aapt resource value: 0x7F070076
+			public const int tooltip_frame_light = 2131165302;
 			
 			static Drawable()
 			{
@@ -3170,85 +3191,82 @@ namespace StarWarsApp
 			public const int film_details_layout = 2131361833;
 			
 			// aapt resource value: 0x7F0A002A
-			public const int Film_Layout = 2131361834;
+			public const int notification_action = 2131361834;
 			
 			// aapt resource value: 0x7F0A002B
-			public const int notification_action = 2131361835;
+			public const int notification_action_tombstone = 2131361835;
 			
 			// aapt resource value: 0x7F0A002C
-			public const int notification_action_tombstone = 2131361836;
+			public const int notification_media_action = 2131361836;
 			
 			// aapt resource value: 0x7F0A002D
-			public const int notification_media_action = 2131361837;
+			public const int notification_media_cancel_action = 2131361837;
 			
 			// aapt resource value: 0x7F0A002E
-			public const int notification_media_cancel_action = 2131361838;
+			public const int notification_template_big_media = 2131361838;
 			
 			// aapt resource value: 0x7F0A002F
-			public const int notification_template_big_media = 2131361839;
+			public const int notification_template_big_media_custom = 2131361839;
 			
 			// aapt resource value: 0x7F0A0030
-			public const int notification_template_big_media_custom = 2131361840;
+			public const int notification_template_big_media_narrow = 2131361840;
 			
 			// aapt resource value: 0x7F0A0031
-			public const int notification_template_big_media_narrow = 2131361841;
+			public const int notification_template_big_media_narrow_custom = 2131361841;
 			
 			// aapt resource value: 0x7F0A0032
-			public const int notification_template_big_media_narrow_custom = 2131361842;
+			public const int notification_template_custom_big = 2131361842;
 			
 			// aapt resource value: 0x7F0A0033
-			public const int notification_template_custom_big = 2131361843;
+			public const int notification_template_icon_group = 2131361843;
 			
 			// aapt resource value: 0x7F0A0034
-			public const int notification_template_icon_group = 2131361844;
+			public const int notification_template_lines_media = 2131361844;
 			
 			// aapt resource value: 0x7F0A0035
-			public const int notification_template_lines_media = 2131361845;
+			public const int notification_template_media = 2131361845;
 			
 			// aapt resource value: 0x7F0A0036
-			public const int notification_template_media = 2131361846;
+			public const int notification_template_media_custom = 2131361846;
 			
 			// aapt resource value: 0x7F0A0037
-			public const int notification_template_media_custom = 2131361847;
+			public const int notification_template_part_chronometer = 2131361847;
 			
 			// aapt resource value: 0x7F0A0038
-			public const int notification_template_part_chronometer = 2131361848;
+			public const int notification_template_part_time = 2131361848;
 			
 			// aapt resource value: 0x7F0A0039
-			public const int notification_template_part_time = 2131361849;
+			public const int People_Layout = 2131361849;
 			
 			// aapt resource value: 0x7F0A003A
-			public const int People_Layout = 2131361850;
+			public const int people_row_layout = 2131361850;
 			
 			// aapt resource value: 0x7F0A003B
-			public const int people_row_layout = 2131361851;
+			public const int Planets_Layout = 2131361851;
 			
 			// aapt resource value: 0x7F0A003C
-			public const int Planets_Layout = 2131361852;
+			public const int planets_row_layout_02 = 2131361852;
 			
 			// aapt resource value: 0x7F0A003D
-			public const int planets_row_layout_02 = 2131361853;
+			public const int select_dialog_item_material = 2131361853;
 			
 			// aapt resource value: 0x7F0A003E
-			public const int select_dialog_item_material = 2131361854;
+			public const int select_dialog_multichoice_material = 2131361854;
 			
 			// aapt resource value: 0x7F0A003F
-			public const int select_dialog_multichoice_material = 2131361855;
+			public const int select_dialog_singlechoice_material = 2131361855;
 			
 			// aapt resource value: 0x7F0A0040
-			public const int select_dialog_singlechoice_material = 2131361856;
+			public const int Starships_Layout = 2131361856;
 			
 			// aapt resource value: 0x7F0A0041
-			public const int Starships_Layout = 2131361857;
+			public const int starships_row_layout = 2131361857;
 			
 			// aapt resource value: 0x7F0A0042
-			public const int starships_row_layout = 2131361858;
+			public const int support_simple_spinner_dropdown_item = 2131361858;
 			
 			// aapt resource value: 0x7F0A0043
-			public const int support_simple_spinner_dropdown_item = 2131361859;
-			
-			// aapt resource value: 0x7F0A0044
-			public const int tooltip = 2131361860;
+			public const int tooltip = 2131361859;
 			
 			static Layout()
 			{

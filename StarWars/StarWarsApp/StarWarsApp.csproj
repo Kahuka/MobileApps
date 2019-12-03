@@ -152,9 +152,6 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Luke_skywalker.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\mipmap-mdpi\DarthVader.png" />
   </ItemGroup>
   <ItemGroup>
@@ -175,9 +172,19 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\Film_Layout.xml">
+    <AndroidResource Include="Resources\drawable\StarWars3.jpg" />
+    <AndroidResource Include="Resources\drawable\StarWars2.jpg" />
+    <AndroidResource Include="Resources\drawable\StarWars1.jpg" />
+    <AndroidResource Include="Resources\drawable\StarWars7.jpg" />
+    <AndroidResource Include="Resources\drawable\StarWars6.jpg" />
+    <AndroidResource Include="Resources\drawable\StarWars5.jpg" />
+    <AndroidResource Include="Resources\drawable\StarWars4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\layout\Film_Layout.axml">
       <SubType>Designer</SubType>
-    </AndroidResource>
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

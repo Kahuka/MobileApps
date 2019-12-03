@@ -18,7 +18,7 @@ namespace StarWarsApp.StarWars
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.film_details_layout);
+            SetContentView(Resource.Layout.Film_Layout);
             // Create your application here
         }
     }
