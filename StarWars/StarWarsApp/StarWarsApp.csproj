@@ -134,14 +134,6 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\planets_row_layout_02.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\Starships_Layout.xml" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\layout\starships_row_layout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
@@ -167,11 +159,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\DarthVader.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\film_details_layout.xml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\StarWars3.jpg" />
     <AndroidResource Include="Resources\drawable\StarWars2.jpg" />
     <AndroidResource Include="Resources\drawable\StarWars1.jpg" />
@@ -181,9 +168,16 @@
     <AndroidResource Include="Resources\drawable\StarWars4.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\layout\film_row_layout.axml">
+      <SubType>Designer</SubType>
+    </Content>
+    <AndroidResource Include="Resources\layout\planets_row_layout.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="Resources\layout\Film_Layout.axml">
       <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

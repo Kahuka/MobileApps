@@ -29,7 +29,7 @@ namespace StarWarsApp
             {
                 string searchWord = searchBar.Text;
                 string queryString = "https://swapi.co/api/starships/?search=" + searchWord;
-                var data = await DataServiceStarships.GetStarWarsStarships(queryString);
+                var data = await DataService.GetStarWarsStarships(queryString);
                 peopleListView.Adapter = new StarWarsStarshipsAdapter(this, data.Results);
 
             };

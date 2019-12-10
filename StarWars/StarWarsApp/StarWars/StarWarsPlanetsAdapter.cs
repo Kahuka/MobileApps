@@ -46,7 +46,7 @@ namespace StarWarsApp
             View view = convertView;
 
             if (view == null)
-                view = _context.LayoutInflater.Inflate(Resource.Layout.planets_row_layout_02, null);
+                view = _context.LayoutInflater.Inflate(Resource.Layout.planets_row_layout, null);
 
             view.FindViewById<TextView>(Resource.Id.textViewPlanets1).Text = "Name: " + item.Name;
             view.FindViewById<TextView>(Resource.Id.textViewPlanets2).Text = "Orbital Period: " + item.Orbital_Period.ToString();

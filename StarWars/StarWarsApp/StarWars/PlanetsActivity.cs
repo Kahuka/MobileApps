@@ -24,7 +24,7 @@ namespace StarWarsApp
             {
                 string searchWord = searchBar.Text;
                 string queryString = "https://swapi.co/api/planets/?search=" + searchWord;
-                var data = await DataServicePlanets.GetStarWarsPlanets(queryString);
+                var data = await DataService.GetStarWarsPlanets(queryString);
                 planetsListView.Adapter = new StarWarsPlanetsAdapter(this, data.Results);
             };
 

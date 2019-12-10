@@ -16,21 +16,21 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:id="@id/btnStarWars"
+            android:id="@+id/btnStarWars1"
             android:background="@drawable/StarWars1"/>
         <Button
             android:text=""
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:id="@id/btnStarWars2"
+            android:id="@+id/btnStarWars2"
             android:background="@drawable/StarWars2"/>
         <Button
             android:text=""
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:id="@id/btnStarWars3"
+            android:id="@+id/btnStarWars3"
             android:background="@drawable/StarWars3"/>
 
      </LinearLayout>
@@ -45,21 +45,21 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:id="@id/btnStarWars4"
+            android:id="@+id/btnStarWars4"
             android:background="@drawable/StarWars4"/>
         <Button
             android:text=""
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:id="@id/btnStarWars5"
+            android:id="@+id/btnStarWars5"
             android:background="@drawable/StarWars5"/>
         <Button
             android:text=""
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:id="@id/btnStarWars6"
+            android:id="@+id/btnStarWars6"
             android:background="@drawable/StarWars6"/>
     </LinearLayout>
     <LinearLayout
@@ -77,8 +77,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:id="@id/btnStarWars7"
+            android:id="@+id/btnStarWars7"
             android:background="@drawable/StarWars7"/>
-       
+
     </LinearLayout>
 </LinearLayout>

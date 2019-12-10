@@ -28,7 +28,7 @@ namespace StarWarsApp
             {
                 string searchWord = searchBar.Text;
                 string queryString = "https://swapi.co/api/people/?search=" + searchWord;
-                var data = await DATA(queryString);
+                var data = await DataService.GetStarWarsPeople(queryString);
                 peopleListView.Adapter = new StarWarsPeopleAdapter(this, data.Results);
             };
         }
