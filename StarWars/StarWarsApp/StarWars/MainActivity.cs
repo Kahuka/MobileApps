@@ -9,10 +9,7 @@ using Android.Content;
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
-
-
-
-
+using StarWarsApp.StarWars;
 
 namespace StarWarsApp
 {
@@ -30,10 +27,12 @@ namespace StarWarsApp
             var PeopleBtn = FindViewById<Button>(Resource.Id.PeopleButton);
             var PlanetsBtn = FindViewById<Button>(Resource.Id.PlanetsButton);
             var StarshipsBtn = FindViewById<Button>(Resource.Id.StarshipsButton);
+            var FilmsBtn = FindViewById<Button>(Resource.Id.FilmsButton);
 
             PeopleBtn.Click += PeopleBtn_Click;
             PlanetsBtn.Click += PlanetsBtn_Click;
             StarshipsBtn.Click += StarshipsBtn_Click;
+            FilmsBtn.Click += FilmsBtn_Click;
 
         }
 
@@ -53,6 +52,12 @@ namespace StarWarsApp
         private void StarshipsBtn_Click(object sender, EventArgs e)
         {
             var intent = new Intent(this, typeof(Starships_Activity));
+
+            this.StartActivity(intent);
+        }
+        private void FilmsBtn_Click(object sender, EventArgs e)
+        {
+            var intent = new Intent(this, typeof(FilmsActivity));
 
             this.StartActivity(intent);
         }
