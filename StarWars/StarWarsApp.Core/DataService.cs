@@ -12,7 +12,6 @@ namespace StarWarsApp.Core
     {
         public static async Task<Films> GetStarWarsFilms(string queryString)
         {
-            //var query = "https://swapi.co/api/films/";
             HttpClient client = new HttpClient();
             var response = await client.GetStringAsync(queryString);
 

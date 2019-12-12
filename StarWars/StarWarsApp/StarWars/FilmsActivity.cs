@@ -33,10 +33,76 @@ namespace StarWarsApp.StarWars
             StarWarsbtn1.Click += async delegate
             {
                 string searchWord = "1";
-                string queryString = "https://swapi.co/api/starships/?search=" + searchWord;
+                string queryString = "https://swapi.co/api/starships/" + searchWord;
                 var data = await DataService.GetStarWarsStarships(queryString);
-               // peopleListView.Adapter = new StarWarsStarshipsAdapter(this, data.Results);
+                // peopleListView.Adapter = new StarWarsStarshipsAdapter(this, data.Results);
+                var intent = new Intent(this, typeof(FilmsDetailsActivity));
 
+                this.StartActivity(intent);
+
+            };
+            StarWarsbtn2.Click += async delegate
+            {
+                string searchWord = "2";
+                string queryString = "https://swapi.co/api/starships/" + searchWord;
+                var data = await DataService.GetStarWarsStarships(queryString);
+                // peopleListView.Adapter = new StarWarsStarshipsAdapter(this, data.Results);
+                var intent = new Intent(this, typeof(FilmsDetailsActivity));
+
+                this.StartActivity(intent);
+
+            };
+            StarWarsbtn3.Click += async delegate
+            {
+                string searchWord = "3";
+                string queryString = "https://swapi.co/api/starships/" + searchWord;
+                var data = await DataService.GetStarWarsStarships(queryString);
+                // peopleListView.Adapter = new StarWarsStarshipsAdapter(this, data.Results);
+                var intent = new Intent(this, typeof(FilmsDetailsActivity));
+
+                this.StartActivity(intent);
+
+            };
+            StarWarsbtn4.Click += async delegate
+            {
+                string searchWord = "4";
+                string queryString = "https://swapi.co/api/starships/" + searchWord;
+                var data = await DataService.GetStarWarsStarships(queryString);
+                // peopleListView.Adapter = new StarWarsStarshipsAdapter(this, data.Results);
+                var intent = new Intent(this, typeof(FilmsDetailsActivity));
+
+                this.StartActivity(intent);
+
+            };
+            StarWarsbtn5.Click += async delegate
+            {
+                string searchWord = "5";
+                string queryString = "https://swapi.co/api/starships/" + searchWord;
+                var data = await DataService.GetStarWarsStarships(queryString);
+                // peopleListView.Adapter = new StarWarsStarshipsAdapter(this, data.Results);
+                var intent = new Intent(this, typeof(FilmsDetailsActivity));
+
+                this.StartActivity(intent);
+            };
+            StarWarsbtn6.Click += async delegate
+            {
+                string searchWord = "6";
+                string queryString = "https://swapi.co/api/starships/" + searchWord;
+                var data = await DataService.GetStarWarsStarships(queryString);
+                // peopleListView.Adapter = new StarWarsStarshipsAdapter(this, data.Results);
+                var intent = new Intent(this, typeof(FilmsDetailsActivity));
+
+                this.StartActivity(intent);
+            };
+            StarWarsbtn7.Click += async delegate
+            {
+                string searchWord = "7";
+                string queryString = "https://swapi.co/api/starships/" + searchWord;
+                var data = await DataService.GetStarWarsStarships(queryString);
+                // peopleListView.Adapter = new StarWarsStarshipsAdapter(this, data.Results);
+                var intent = new Intent(this, typeof(FilmsDetailsActivity));
+
+                this.StartActivity(intent);
             };
 
 

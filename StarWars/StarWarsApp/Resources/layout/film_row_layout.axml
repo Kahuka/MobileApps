@@ -3,5 +3,98 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/movieDetWrapper1"
+			android:gravity="center"
+			android:layout_marginBottom="15px"
+			android:padding="10px"> 
+
+		<TextView
+			android:text="Title: Star Wars "
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/textViewMovieTitle"
+			android:textStyle="bold"
+			android:textSize="40px" 
+			android:layout_weight="0.35"
+		    android:padding="5px"/>
+
+		<TextView
+			android:text="Release:"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/textViewReleaseDate"
+			android:textStyle="bold"
+			android:textSize="40px" 
+			android:layout_weight="1"
+		    android:padding="5px"/>
+
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/movieDetWrapper2"
+			android:gravity="center"
+			android:layout_marginBottom="15px"
+			android:padding="10px">
+
+		<TextView
+			android:text="Director:"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/textViewDirector"
+			android:textStyle="bold"
+			android:textSize="36px" 
+			android:layout_weight="1"
+		    android:paddingLeft="5px"
+			android:gravity="center"
+	        android:paddingRight="5px"/>
+		<TextView
+			android:text="Producer:"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:textStyle="bold"
+			android:id="@+id/textViewProducer"
+			android:textSize="36px" 
+			android:layout_weight="1"
+		    android:paddingLeft="5px"
+			android:gravity="center"
+	        android:paddingRight="5px"/>
+
+		</LinearLayout>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/movieDetWrapper3"
+			android:gravity="center"
+			android:padding="10px">
+
+		<TextView
+			android:text="Description: Lorem ipsum..."
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/textViewDescription"
+			android:textStyle="bold"
+			android:textSize="32px" 
+		    android:gravity="center"/>
+
+	</LinearLayout>
 
 </LinearLayout>
+
