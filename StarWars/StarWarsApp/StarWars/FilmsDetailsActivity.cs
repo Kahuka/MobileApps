@@ -28,12 +28,11 @@ namespace StarWarsApp.StarWars
             var movieProducerTextView = FindViewById<TextView>(Resource.Id.textViewProducer);
             var movieDescTextView = FindViewById<TextView>(Resource.Id.textViewDescription);
 
-            //var movieDetails = JsonConvert.DeserializeObject<Core.Models.FilmsDetails>(Intent.GetStringExtra("movieDetails"));
-            //movieTitleTextView.Text = movieDetails.Title;
-            //movieYearTextView.Text = movieDetails.Release_Date.Year.ToString();
-            //movieDirectorTextView.Text = "Directed by: " + movieDetails.Director;
-            //movieProducerTextView.Text = "Produced by: " + movieDetails.Producer;
-            //movieDescTextView.Text = movieDetails.Opening_Crawl;
+            var filmDetails = JsonConvert.DeserializeObject<Core.Models.FilmDetails>(Intent.GetStringExtra("movieDetails"));
+            movieYearTextView.Text = filmDetails.Release_date.Year.ToString();
+            movieDirectorTextView.Text = "Directed by: " + filmDetails.Director;
+            movieProducerTextView.Text = "Produced by: " + filmDetails.Producer;
+            movieDescTextView.Text = filmDetails.Opening_crawl;
 
 
         }

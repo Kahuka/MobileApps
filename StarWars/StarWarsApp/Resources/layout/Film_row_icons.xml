@@ -1,0 +1,81 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="128.0dp"
+        android:layout_height="191.5dp"
+        android:maxWidth="500px"
+        android:maxHeight="500px"
+        android:src="@drawable/starwars1"
+        android:id="@+id/imageView1"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="0.0dp" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="128.0dp"
+        android:layout_height="191.5dp"
+        android:layout_toRightOf="@id/imageView1"
+        android:maxWidth="250px"
+        android:maxHeight="250px"
+        android:src="@drawable/starwars2"
+        android:id="@+id/imageView2"
+        android:adjustViewBounds="true" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="128.0dp"
+        android:layout_height="191.5dp"
+        android:src="@drawable/starwars3"
+        android:adjustViewBounds="true"
+        android:layout_toRightOf="@id/imageView2"
+        android:maxWidth="250px"
+        android:maxHeight="250px"
+        android:id="@+id/imageView3" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_width="128.0dp"
+        android:layout_height="191.5dp"
+        android:src="@drawable/starwars4"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageView4"
+        android:layout_below="@id/imageView1" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_width="128.0dp"
+        android:layout_height="191.5dp"
+        android:src="@drawable/starwars5"
+        android:adjustViewBounds="true"
+        android:layout_toRightOf="@id/imageView1"
+        android:layout_below="@id/imageView1"
+        android:id="@+id/imageView5" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_width="128.0dp"
+        android:layout_height="191.5dp"
+        android:src="@drawable/starwars6"
+        android:adjustViewBounds="true"
+        android:layout_toRightOf="@id/imageView2"
+        android:layout_below="@id/imageView1"
+        android:id="@+id/imageView6" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_width="131.5dp"
+        android:layout_height="191.5dp"
+        android:src="@drawable/starwars7"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageView7"
+        android:layout_toRightOf="@id/imageView1"
+        android:layout_below="@id/imageView4" />
+
+</RelativeLayout>
