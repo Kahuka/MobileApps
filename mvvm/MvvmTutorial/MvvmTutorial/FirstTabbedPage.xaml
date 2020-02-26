@@ -9,5 +9,6 @@
   <!--Pages can be added as references or inline-->
     <local:MainPage Title="TipCalc" Icon="icon.png"/>
     <local:SettingsPage Title="Settings"/>
-    <local:InstagramPage Title="Instagram"/>
+    <local:InstagramMainfeed Title="Feed"/>
+    <local:InstagramPage Title="Post Picture"/>
 </TabbedPage>

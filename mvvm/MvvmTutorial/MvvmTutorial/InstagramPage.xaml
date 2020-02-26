@@ -13,8 +13,9 @@
             </Grid>
 
             <Image x:Name="imgPreView" HeightRequest="300" WidthRequest="400"/>
+            <ActivityIndicator x:Name="uploadIndicator" IsVisible="False" IsRunning="False" />
             <Button x:Name="btnUploadPic" Text="Upload Picture" Clicked="btnUploadPic_Clicked"/>
-            
+            <Editor x:Name="UploadedUrl" TextColor="Black" HeightRequest="85" Text="Image URL:" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
