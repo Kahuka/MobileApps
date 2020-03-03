@@ -1,0 +1,5 @@
+﻿Getting images from azure:
+https://devblogs.microsoft.com/xamarin/xamarin-plus-azure-blob-cloud-storage/
+
+Video:
+https://www.youtube.com/watch?v=Wmc7C4RRjBI
