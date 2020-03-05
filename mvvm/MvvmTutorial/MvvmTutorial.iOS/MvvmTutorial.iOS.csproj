@@ -155,11 +155,14 @@
       <Version>4.0.1.5</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="4.4.0.991640" />
+    <PackageReference Include="sqlite-net-pcl">
+      <Version>1.6.292</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\MvvmTutorial\MvvmTutorial.csproj">
-      <Project>{36E4BC69-A1F0-408A-AEDE-FA6578BA6512}</Project>
+      <Project>{8917E7C3-0B7E-47E3-BEEE-D9AF237D5358}</Project>
       <Name>MvvmTutorial</Name>
     </ProjectReference>
   </ItemGroup>
