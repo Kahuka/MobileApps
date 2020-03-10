@@ -13,6 +13,22 @@ namespace InstagramApp
     public class MainViewModel : INotifyPropertyChanged
     {
 
+        string title = string.Empty;
+
+        public string Title
+        {
+            get => title;
+            set
+            {
+                if (title == value)
+                    return;
+
+                title = value;
+                OnPropertyChanged(nameof(Title));
+            }
+
+        }
+
         public MainViewModel()
         {
             Images = new ObservableCollection<ImageInfo>();
@@ -56,7 +72,7 @@ namespace InstagramApp
                 return;
 
             var image = new ImageInfo();
-            image.Name = "New picture";
+            image.Name = title;
             //image.Source = ImageSource.FromStream(file.Path);
 
 
