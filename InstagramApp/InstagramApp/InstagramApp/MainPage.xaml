@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:InstagramApp"
+             mc:Ignorable="d"
+             x:Class="InstagramApp.MainPage">
+
+    <ContentPage.BindingContext>
+        <vm:MainViewModel/>
+    </ContentPage.BindingContext>
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Welcome to InstagramPage" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        <ListView ItemsSource="{Binding Images}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="{Binding Name}"></Label>
+                            <Image Source="{Binding Source}"></Image>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Entry Text="{Binding Title}"></Entry>
+        <Button Text="Get Image From Phone" Command="{Binding GetPictureCommand}" />
+        <Button  Text="Take Picture"  Command="{Binding TakePictureCommand}" />
+    </StackLayout>
+
+</ContentPage>

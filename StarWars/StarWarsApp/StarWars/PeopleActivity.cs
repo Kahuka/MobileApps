@@ -17,7 +17,6 @@ namespace StarWarsApp
             SetContentView(Resource.Layout.People_Layout);
 
 
-
             var searchBar = FindViewById<EditText>(Resource.Id.searchEditText);
             var searchButton = FindViewById<Button>(Resource.Id.searchButton);
             var peopleListView = FindViewById<ListView>(Resource.Id.peopleListView);
